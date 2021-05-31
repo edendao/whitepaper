@@ -8,3 +8,10 @@ Readings:
 1. [Thought piece of bonding curve cryptoeconomics](https://blog.cosmos.network/distribution-curves-a-thought-piece-on-cryptoeconomics-246b43a3a5ee)
 1. [Making it profitable to protect the commons](https://medium.com/@simondlr/saving-the-planet-making-it-profitable-to-protect-the-commons-50393906fe22)
 
+## Raw Thoughts
+
+An exponential curve is not useful because it leads to more speculation later on. A logarithmic curve would be better, then level off to something linear.
+
+The first curve is for the native token EDEN. Deposits are held by the Eden Vault. These tokens represent a proportional allocation of the yield earned from yield farming. There is a decreasing exit tax. The taxed coins are re-invested into the EDEN token.
+
+EDEN can be used to buy startup coins. Startup coins are priced in EDEN and also operate on a logarithmic bonding curve. A startup's EDEN entitles them to a proportional allocation of the yield generated from the reserve in the Eden Vault.
