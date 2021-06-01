@@ -10,7 +10,7 @@ Readings:
 
 ## Economic Design
 
-To enter Eden, you must first purchase Eden tokens using an AMM functioning on an exponential bonding curve. My first thought is `y = (x/1000000)^(z), 3/2 ≤ z ≤ 2`.  The upper bound of 2 was inspired by BitClout and Metcalfe's law. This will be deposited into the Vault contract.
+To enter Eden, you must first purchase Eden tokens using an AMM functioning on an exponential bonding curve. My vision is `y = (x/1000000)^(z), 3/2 ≤ z ≤ 2`.  The upper bound of 2 was inspired by BitClout and Metcalfe's law. This will be deposited into the Vault contract.
 
 With the launch of ETH 2.0, this ETH will be staked to earn a yield. The yield will be used to purchase Eden tokens from the AMM as support. In the meantime, time-permitting, we will explore yield-generating strategies like yearn.finance.
 
