@@ -16,4 +16,4 @@ With the launch of ETH 2.0, this ETH will be staked to earn a yield. The yield w
 
 Eden tokens can be used to purchase project tokens. Project tokens are purchased through an AMM operating on a logarithmic curve that transitions to a linear function to encourage experimentative speculation in the near term and stability as the project matures. 
 
-The amount of Eden tokens held by the project token contract represents its claim on a proportional amount of ETH held by the Vault. This ETH is available for use as collateral for projects to take out DeFi loans. The collected interest will purchase Eden tokens that are automatically reinvested into the project's own token, to encourage the project to use the source of capital.
+The amount of Eden tokens held by the project token contract represents its claim on a proportional amount of ETH held by the Vault. This ETH is available for use as collateral for projects to take out DeFi loans. (Maybe the Eden token can be used as collateral?) The collected interest will purchase Eden tokens that are automatically reinvested into the project's own token, to encourage the project to use the source of capital.
