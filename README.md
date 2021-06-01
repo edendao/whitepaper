@@ -8,10 +8,12 @@ Readings:
 1. [Thought piece of bonding curve cryptoeconomics](https://blog.cosmos.network/distribution-curves-a-thought-piece-on-cryptoeconomics-246b43a3a5ee)
 1. [Making it profitable to protect the commons](https://medium.com/@simondlr/saving-the-planet-making-it-profitable-to-protect-the-commons-50393906fe22)
 
-## Raw Thoughts
+## Economic Design
 
-An exponential curve is not useful because it leads to more speculation later on. A logarithmic curve would be better, then level off to something linear.
+To enter Eden, you must first purchase Eden tokens using an AMM functioning on an exponential bonding curve. My first thought is `y = (x/1000000)^(z), 3/2 ≤ z ≤ 2`.  The upper bound of 2 was inspired by BitClout and Metcalfe's law. This will be deposited into the Vault contract.
 
-The first curve is for the native token EDEN. Deposits are held by the Eden Vault. These tokens represent a proportional allocation of the yield earned from yield farming. There is a decreasing exit tax. The taxed coins are re-invested into the EDEN token.
+With the launch of ETH 2.0, this ETH will be staked to earn a yield. The yield will be used to purchase Eden tokens from the AMM as support. In the meantime, time-permitting, we will explore yield-generating strategies like yearn.finance.
 
-EDEN can be used to buy startup coins. Startup coins are priced in EDEN and also operate on a logarithmic bonding curve. A startup's EDEN entitles them to a proportional allocation of the yield generated from the reserve in the Eden Vault.
+Eden tokens can be used to purchase project tokens. Project tokens are purchased through an AMM operating on a logarithmic curve that transitions to a linear function to encourage experimentative speculation in the near term and stability as the project matures. 
+
+The amount of Eden tokens held by the project token contract represents its claim on a proportional amount of ETH held by the Vault. This ETH is available for use as collateral for projects to take out DeFi loans. The collected interest will purchase Eden tokens that are automatically reinvested into the project's own token, to encourage the project to use the source of capital.
